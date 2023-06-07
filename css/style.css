@@ -1,0 +1,17 @@
+.card{
+    border-radius: 0;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #ccc  !important;
+}
+.btn{
+    border-radius: 0;
+}
+.card .titulo{
+    height: 50px;
+}
+.alert{
+    margin-top: 10px;
+}
+n{
+    font-weight: bold;
+}
