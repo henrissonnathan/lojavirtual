@@ -21,14 +21,14 @@
 
 
     ?>
-        <div class="col-12 col-md-3">
-            <div class="card">
+        <div class="col-12 col-md-3 ">
+            <div class="card rounded-3 p-3 border border-info">
                 <img src="http://localhost/admin/fotos/<?=$dados->imagem?>p.jpg" alt="<?= $dados->produto ?>" class="w-100">
-                <div class="card-body text-center">
-                    <p class="titulo"><strong><?= $dados->produto ?></strong></p>
+                <div class="card-body text-center ">
+                    <p class="titulo text-primary"><strong><?= $dados->produto ?></strong></p>
                     <p>
-                    <p>$<?= $valor ?></p>
-                    <a href="produto/<?= $dados->id ?>" class="btn btn-warning">
+                    <p class="text-warning">$<?= $valor ?></p>
+                    <a href="produto/<?= $dados->id ?>" class="btn btn-primary rounded">
                         ver detalhes
                     </a>
                     </p>
