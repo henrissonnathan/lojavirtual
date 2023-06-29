@@ -28,7 +28,7 @@ if (!$id) {
         <div class="col-12 col-md-6">
             <h1 class="text-center text-primary"><?= $dados->produto ?></h1>
             <p class="text-warning">R$<span id="valorTotal" ><?= $valor ?></span></p>
-            <p class="text-primary"><?= $dados->descricao?></p>
+            <p class="text-primary"><?=$dados->descricao?></p>
         </div>
         <div class="col-12 col-md-3 text-primary">
             <h4><label for="numParcelas">Valor de parcela:</label></h4>

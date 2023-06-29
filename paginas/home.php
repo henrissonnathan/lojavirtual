@@ -23,7 +23,7 @@
     ?>
         <div class="col-12 col-md-3 ">
             <div class="card rounded-3 p-3 border border-info">
-                <img src="http://localhost/admin/fotos/<?=$dados->imagem?>p.jpg" alt="<?= $dados->produto ?>" class="w-100">
+                <img src="http://localhost/admin/fotos/<?=$dados->imagem?>p.jpg" alt="<?= $dados->produto ?>" class="w-10">
                 <div class="card-body text-center ">
                     <p class="titulo text-primary"><strong><?= $dados->produto ?></strong></p>
                     <p>

@@ -17,6 +17,7 @@ date_default_timezone_set('America/Sao_Paulo');
   <base href="<?= $base ?>">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="imagens/logosP.png">
   <style>
     body {
       background-color: #dddddd; /* Define a cor de fundo como cinza */
